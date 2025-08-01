@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   /* Cores - Marca */
   --snitap-sun: #ffcd1e;
@@ -33,10 +34,13 @@
 h1 {
   font: var(--h1);
 }
-h1 {
+h2 {
   font: var(--h2);
 }
 a {
   color: inherit;
   text-decoration: none;
+  &:hover {
+    color: inherit;
+  }
 }

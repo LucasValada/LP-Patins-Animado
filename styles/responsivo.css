@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .buttons {
+    flex-direction: column-reverse;
+    display: flex;
+    .play {
+      margin: 16px 0px;
+    }
+  }
+  .content,
+  footer {
+    display: block !important;
+    nav {
+      :nth-child(1) {
+        margin-top: 24px;
+      }
+      display: inline-grid;
+      padding: 0;
+      margin: 0;
+      gap: 0;
+      a {
+        margin: 16px 0px;
+      }
+    }
+  }
+}
