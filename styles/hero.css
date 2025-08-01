@@ -84,8 +84,9 @@ section.hero {
       width: 94%;
       top: 3%;
       left: 3%;
-      transform: translateX(200%);
-      animation: slideIn 3s ease forwards;
+      opacity: 0;
+      transform: translateX(-100%);
+      animation: slideLeft 3s ease forwards;
     }
     img[title="pattins"] {
       z-index: 1;
@@ -113,6 +114,16 @@ section.hero {
 
 @keyframes appear {
   to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }

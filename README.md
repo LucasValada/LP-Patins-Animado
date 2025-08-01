@@ -25,7 +25,10 @@ Criada com HTML5 e CSS3 puro, sem uso de bibliotecas JavaScript.
 
 ## 💻 Preview
 
-![Preview](./assets/preview.png)
+![Video Desktop](./assets/Desktop%20Unitap.mp4)
+![Video Mobile](./assets/Mobile.mp4)
+![Mobile](mobile.png)
+![Desktop](desktop.png)
 
 ## ▶️ Como rodar localmente
 
